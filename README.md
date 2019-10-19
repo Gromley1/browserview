@@ -1,9 +1,10 @@
-This is a UI challenge I submitted for assessment. The core of thge challemnge was to mock a company landing page and have the view resize for a mobile browser. To take on this challenge I decided to ustilize conditional rendering in the header that will re render based on a window resize event listener which detects if the app s running in a mibile browser or if the screen is being resized. For the main body I handled the resizing with CSS media queries. PLease see exapmles of bothe the browser and mobiel view below 
+This is a UI challenge I submitted for assessment. The core of the challemnge was to mock a company landing page and have the view resize for a mobile browser. To take on this challenge I decided to utilize conditional rendering in the header that will re-render based on a window resize event listener which detects if the app is running in a mibile browser or if the screen is being resized. For the main body I handled the resizing with CSS media queries. Please see screen captures of both the browser and mobiel views below 
 
 -- Browser View
 ![browser capture](https://user-images.githubusercontent.com/39548252/67151373-40e21100-f27a-11e9-9854-7b59b9af72ce.PNG)
 
 --Mobile View
+
 ![mobile view](https://user-images.githubusercontent.com/39548252/67151384-6ff88280-f27a-11e9-82ac-eb6f6e90d11c.PNG)
 
 
