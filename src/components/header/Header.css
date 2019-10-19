@@ -1,0 +1,81 @@
+/* Normal in browser view */
+.navbar {
+    display: flex;
+    justify-content: flex-end 
+}
+
+.header-anchor {
+    text-decoration: none;
+    color: black;
+    line-height: 1.6
+}
+
+ul {
+    list-style: none
+}
+
+.navbar-menu {
+    display: flex;
+    flex-direction: row;
+    padding-right: 15vw; 
+}
+
+.navbar-menu a {
+	margin-left: 4vw;
+}
+
+.logo {
+    margin-top: 10px;
+    font-weight: 500;
+    margin-right: 40vw;
+}
+
+/* Mobile in browser view */
+
+.navbar-mobile {
+    display: flex;
+    justify-content: flex-start;
+    height: 8vh;
+}
+.line1, .line2, .line3 {
+    margin-top: 5px;
+    background-color: #404040;
+    width: 35px;
+    height: 3px;
+    border-radius:15%; 
+}
+
+.hamburgerNav {
+    margin-top: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    width: 5vw;
+}
+
+.logo-mobile {
+    margin-top: 2px;
+    margin-left: 1.5em;
+    font-weight: 500;
+    font-size: 1.35em
+}
+
+/* .snowmanNav {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    cursor: pointer;
+    margin-top: 6px;
+    margin-left: 53em;
+    padding-right: 5em 
+    
+} */
+
+/* .dot {
+    height: 3.5px;
+    width: 4px;
+    background-color: #404040;
+    border-radius:50%;
+    
+} */
+
+

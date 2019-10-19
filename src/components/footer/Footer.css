@@ -1,0 +1,27 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    min-height: 10vh;
+}
+
+
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    
+}
+
+.footer-info a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.25rem;
+    margin-top: 50px;
+}
+
+.footer-info-two {
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0;
+}

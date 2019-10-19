@@ -1,0 +1,79 @@
+.container {
+    background-image: url('../../assets/img/main-banner.jpg');
+    background-size: cover;
+    background-position: center center;
+    min-Height: 75vh;
+}
+
+.main-body {
+    margin-left: 20vw;
+    padding-top: 18vh;
+    width: 450px
+}
+
+.main-info {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.main-info-two {
+    font-weight: 400
+}
+
+.btn-container {
+    margin-top: 40px;
+}
+
+.learn-more {
+    border-radius: 5px;
+    height: 40px;
+    width: 135px;
+    text-align: left;
+    color: white;
+    background-color: rgb(54, 131, 231);
+    border: none;
+    cursor: pointer;
+    
+}
+
+.btn-text {
+    padding-left: 8px
+}
+
+.get-in-touch {
+    border-radius: 5px;
+    height: 40px;
+    width: 120px;
+    text-align: center;
+    color: black;
+    background-color: #F7F7F7;  
+    margin-left: 20px;  
+    cursor: pointer;
+}
+
+/* mobile resize */
+@media(max-width: 900px) {
+    .main-body {
+        margin-left: 5vw;
+        padding-top: 18vh;
+        
+    }
+
+    .main-info {
+        font-size: 35px;
+    }
+
+}
+
+@media(max-width: 490px) {
+    .main-body {
+        margin-left: 5vw;
+        padding-top: 18vh;
+        width: 300px
+    }
+
+    .main-info {
+        font-size: 25px;
+    }
+
+}
